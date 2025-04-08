@@ -1,0 +1,5 @@
+rich
+pydantic
+tqdm
+ruff
+pandas
