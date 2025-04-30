@@ -8,7 +8,7 @@
 
 
 ## 'Path' library:
-> alternative way to have a robust script that is not effected when you switch between directories
+> alternative way to have a robust script that is not effected when you switch between directories (also not effected when switching netween build-systems e.g. REPL v. Terminus)
 
 
 
@@ -26,6 +26,15 @@
 > helps in formatting the code, both to exhibit the issues and to fix if you allows it.
 > I also understand that you can configure it to your needs (for highlighting the formatting deficiencies)
 > example for pre-formatted code: code_pending_ruff_refactor - Copy.py
+
+> To verify/check from cmd terminal:
+> - *ruff check code_pending_ruff_refactor.py*
+
+> To fix/format from cmd terminal:
+> - *ruff format code_pending_ruff_refactor.py*
+
+> To check and fix from cmd terminal:
+> - *ruff check code_pending_ruff_refactor.py --fix*
 
 
 ## Note

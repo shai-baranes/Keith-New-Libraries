@@ -1,5 +1,5 @@
 ############################################################
-# python allow plugin text instead of float value - no issues what so ever
+# previously - python allow args with text (str) instead of float value - no issues what so ever
 ############################################################
 class Account:
 	"""docstring for Account"""
@@ -19,7 +19,7 @@ if __name__ == "__main__":
 print()
 
 ############################################################
-# now python prevents plugin text instead of float value
+# now - python prevents args with text (str) when typehints suggest Float
 ############################################################
 
 
